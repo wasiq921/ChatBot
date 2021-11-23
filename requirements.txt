@@ -1,0 +1,14 @@
+setuptools>=41.0.0
+tensorflow
+Flask
+flask_wtf
+numpy
+pandas
+nltk
+Keras
+requests
+pygame
+COVID19Py
+gunicorn
+billboard.py
+pytz
