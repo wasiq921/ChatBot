@@ -20,9 +20,8 @@ Among other things, the bot can:
 1. Chat with you
 2. Help you with Google Search
 3. Get the weather of any city
-4. Get the top trending news in India at that moment
-5. Get the top ten globally popular songs at that moment
-6. Set a timer for you and so on
+4. Get the top ten globally popular songs at that moment
+5. Set a timer for you and so on
 
 #### To check the complete list of capabilities and how to access them, type 'help' in the message box.
 
@@ -35,7 +34,7 @@ To run it locally on your system, follow these steps:
 1. Clone this repository onto your system. On Command Prompt, run the following command:
 
 ```
-git clone https://github.com/Karan-Malik/Chatbot.git
+git clone https://github.com/wasiq921/ChatBot.git
 ```
 2. Change your directory to Chatbot:
 ```
@@ -48,6 +47,7 @@ pip install Your-library-name
 4. Then run the follwing commands to run the application:
 ```
 set FLASK_APP=chatbot.py
+$env:FLASK_APP = "chatbot.py"
 flask run
 ```
 
